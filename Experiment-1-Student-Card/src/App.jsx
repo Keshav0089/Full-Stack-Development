@@ -5,7 +5,6 @@ import StudentCard from "./components/studentCard";
 import Attendance from "./components/attendance";
 import "./studentCard.css"
 import "./components/attendance.css"
-import Counter from "./components/Counter"
 function App() {
   const [activeSection, setActiveSection] = useState("students");
 
