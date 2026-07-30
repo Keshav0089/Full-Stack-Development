@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  min-width: 350px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #2575fc;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2575fc;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #1a5edb;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
